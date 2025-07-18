@@ -1,0 +1,127 @@
+########################################
+# Build results
+########################################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+x64/
+x86/
+build/
+bld/
+
+########################################
+# User-specific files
+########################################
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+*.sdf
+*.orig
+
+########################################
+# ASP.NET / .NET Core
+########################################
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+global.json
+
+# EF Core
+Migrations/
+
+# Entity Framework Tools logs
+ef.log
+
+########################################
+# Visual Studio
+########################################
+.vs/
+.vscode/
+.vscode-test/
+*.code-workspace
+
+# Visual Studio Code settings
+*.code-workspace
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+########################################
+# Windows / Office files
+########################################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+~$*
+*.tmp
+*.bak
+*.swp
+*.lock
+
+########################################
+# NuGet
+########################################
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+*.dll
+*.exe
+
+# Package-related
+*.vsix
+*.appx
+*.appxbundle
+
+########################################
+# Logs / Coverage / Reports
+########################################
+*.log
+*.tlog
+*.vssscc
+*.vspscc
+*.coverage
+*.coveragexml
+*.code-workspace
+*.sqlite
+TestResults/
+TestResult.xml
+*.trx
+*.cache
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# Coverage tools
+coverage/
+coverage-results/
+*.coverage
+*.coveragexml
+*.cobertura.xml
+*.lcov
+*.opencover.xml
+*.nyc_output/
+*.sass-cache
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+########################################
+# Secrets / Configs (optional)
+########################################
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Comment above if storing config in source control
