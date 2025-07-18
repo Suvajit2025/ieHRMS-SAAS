@@ -1,0 +1,129 @@
+﻿@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sign Up |My Recruitment Portal</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link href="~/css/site.css" rel="stylesheet" />
+	<link href="~/css/signup.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="signup-wrapper">
+		<h2 class="mt-0">Sign In</h2>
+		<p>Access your account to apply for jobs, track applications, and manage your profile.</p>
+
+		<!-- Identifier (Email or Mobile) -->
+		<div class="input-group">
+			<div class="input-wrapper">
+				<i class="bi bi-person-fill"></i>
+				<input type="text" id="identifier" name="identifier" placeholder="Email or Mobile Number" required />
+			</div>
+		</div>
+
+		<!-- Password -->
+		<div class="input-group">
+			<div class="input-wrapper">
+				<i class="bi bi-lock-fill"></i>
+				<input type="password" id="password" name="password" placeholder="Password" required />
+				<i class="bi bi-eye-slash toggle-password" data-target="#password" role="button" tabindex="0"></i>
+			</div>
+
+		</div>
+
+
+		<button class="btn" id="btnSignUp" type="submit">Sign In</button>
+
+		<div class="signin">New user? <a href="/Home/SignUp">Sign Up</a></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="~/js/form-validator.js"></script>
+	<script>
+		// Validate required fields inside a given wrapper (like .signup-wrapper)
+		function validateRequiredFields(wrapperSelector) {
+			let isValid = true;
+			$(wrapperSelector + " input[required]").each(function () {
+				const $input = $(this);
+				const val = $input.val().trim();
+
+				// Remove previous error messages and input states
+				$input.next(".error-message").remove();
+				$input.removeClass("input-invalid input-valid");
+
+				if (!val) {
+					$input.addClass("input-invalid");
+					$input.after('<label class="error-message">This field is required</label>');
+					isValid = false;
+				} else {
+					$input.addClass("input-valid");
+				}
+			});
+			return isValid;
+		}
+
+		$(document).ready(function () {
+			// Toggle password visibility
+			$(".toggle-password").on("click", function () {
+				const target = $(this).data("target");
+				const $passwordInput = $(target);
+				const type = $passwordInput.attr("type") === "password" ? "text" : "password";
+				$passwordInput.attr("type", type);
+
+				// Toggle icon
+				$(this).toggleClass("bi-eye bi-eye-slash");
+			});
+			// Sign in button click
+			$("#btnSignUp").on("click", function (e) {
+				const idValue = $('#identifier').val().trim();
+
+				if (!isValidIdentifier(idValue)) {
+					e.preventDefault();
+				}
+				if (!validateRequiredFields(".signup-wrapper")) {
+					e.preventDefault();
+				}
+
+				const identifier = $("#identifier").val().trim();
+				const password = $("#password").val().trim();
+
+
+				if (!isValidIdentifier(identifier)) return;
+
+					$.ajax({
+						url: '/Home/SignIn',
+						type: 'POST',
+						data: {
+							identifier: identifier,
+							password: password
+						},
+						success: function (response) {
+							if (response.success) {
+								// ✅ Redirect to the dynamic URL from server response
+								if (response.redirectUrl) {
+									window.location.href = response.redirectUrl;
+								} else {
+									window.location.href = "/Home/Login"; // Fallback
+								}
+							} else {
+								alert("Login failed: " + (response.message || "Unknown error"));
+							}
+						},
+						error: function (xhr) {
+							console.error("Error:", xhr);
+							alert("Something went wrong. Please try again.");
+						}
+				});
+
+			});
+		});
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\bin\Debug\net8.0\ieHRMS.Core.deps.json
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\bin\Debug\net8.0\ieHRMS.Core.dll
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\bin\Debug\net8.0\ieHRMS.Core.pdb
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\bin\Debug\net8.0\ieHRMS.Models.dll
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\bin\Debug\net8.0\ieHRMS.Models.pdb
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.csproj.AssemblyReference.cache
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.AssemblyInfoInputs.cache
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.AssemblyInfo.cs
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.csproj.CoreCompileInputs.cache
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.C.DD0B9A53.Up2Date
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.dll
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\refint\ieHRMS.Core.dll
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ieHRMS.Core.pdb
+D:\Archive\SAAS-HRMS\ieHRMS\ieHRMS.Core\obj\Debug\net8.0\ref\ieHRMS.Core.dll

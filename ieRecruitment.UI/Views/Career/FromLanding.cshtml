@@ -1,0 +1,290 @@
+﻿
+@{
+    Layout = null; 
+} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruitment Form</title>
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5 CSS -->
+    <!-- DataTables CSS -->
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/assets/css/dataTables.bootstrap5.min.css">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="d-flex" style="display:none !important;">
+        <div class="text-center">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <div class="fw-bold text-primary">Please wait, uploading...</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <header class="container-fluid bg-transparent py-2 ps-2 g-0">
+            <div class="row align-items-center justify-content-center flex-sm-row flex-md-row flex-row">
+                <!-- Logo -->
+                <div class="col-auto d-flex align-items-center justify-content-center mb-2 mb-sm-0 pe-2">
+                    <img src="/assets/img/logo1.png" alt="Mendine Logo" class="img-fluid recruitment-logo-custom">
+                </div>
+
+                <!-- Header Text -->
+                <div class="col d-flex align-items-center align-items-sm-start  justify-content-start">
+                    <h2 class="mb-0 fw-semibold portal-heading">RECRUITMENT PORTAL</h2>
+                </div>
+            </div>
+        </header>
+
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="row">
+                <!-- Left Illustration -->
+                <div class="col-lg-6">
+                    <div class="d-none d-lg-flex align-items-center justify-content-center">
+                        <img src="/assets/img/mendian-recruitment-portal-img-02.png" alt="Recruitment Illustration" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Form Section -->
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-start align-items-center mt-0 mt-md-3 mt-sm-2">
+                    <div class="form-section w-100 me-0 me-md-4 ms-0 ms-md-4 my-auto py-auto">
+
+
+                        <h2 class="mt-0 form-heading-custom">Recruitment Form</h2>
+                        <p class="text-muted sub-heading-custom">Use the form below to fill out your application form</p>
+
+                        <!-- Candidate Code -->
+                        <div class="candidate-code mb-4">
+                            <div class="d-flex flex-nowrap flex-row align-items-center">
+                                <span class="candidate-code-text me-2"><strong>Candidate Code:</strong></span>
+                                <span class="text-primary fw-bold candidate-code-text">Candidate008735</span>
+                            </div>
+                            <small class="text-muted d-block mt-1 candidate-note">(For Office Use Only)</small>
+                        </div>
+
+
+
+
+                        <form id="recruitmentForm" novalidate>
+                            <input type="hidden" />
+                            <!-- Name Fields -->
+                            <div class="row mb-3">
+                                <!-- First Name -->
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="input-wrapper">
+                                        <label class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" placeholder="Enter First Name" name="firstName" required id="firstName">
+                                    </div>
+                                </div>
+
+                                <!-- Middle Name -->
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="input-wrapper">
+                                        <label class="form-label">Middle Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter Middle Name" name="middleName" id="middleName">
+                                    </div>
+                                </div>
+
+                                <!-- Last Name -->
+                                <div class="col-md-4">
+                                    <div class="input-wrapper">
+                                        <label class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" placeholder="Enter Last Name" name="lastName" required id="lastName">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Post Applied -->
+                            <div class="mb-3">
+                                <h4 class="text-primary"> Post Applying For :</h4>
+                                <div class="candidate-code">
+                                    <span class="candidate-code-text">BUSINESS DEVELOPMENT MANAGER (BDM) - KOLKATA</span>
+                                </div>
+                            </div>
+
+                            <!-- File Upload -->
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <div class="input-wrapper">
+                                        <label class="form-label">Please Upload your CV <span class="text-danger">*</span> </label>
+
+                                        <input type="file" class="form-control" id="cvUpload" name="cvUpload" required
+                                               accept=".pdf,.doc,.docx">
+                                        <small class="text-muted">(pdf/doc/docx only)</small></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-wrapper">
+                                        <label class="form-label">
+                                            Upload Recent Photograph <span class="text-danger">*</span>
+                                        </label>
+                                        <input type="file" class="form-control" id="photoUpload" name="photoUpload" required
+                                               accept=".jpg,.jpeg,.png">
+                                        <small class="text-muted">(jpg/jpeg/png, max 2MB)</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="d-flex justify-content-center align-items-center justify-content-xl-start align-items-xl-start justify-content-lg-start align-items-lg-start">
+                                <button type="submit" class="btn btn-primary recruitment-btn-custom">
+                                    <i class="bi bi-floppy me-2"></i>
+                                    Save & Next
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ✅ 1. Load jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- ✅ 2. Inject token + base URL + ajaxPrefilter -->
+    @await Html.PartialAsync("_TokenScript")
+
+    <!-- ✅ 3. Load your global Ajax logic -->
+    <script src="~/js/global-api.js"></script>
+
+    <script>
+        // File validation
+        document.getElementById('recruitmentForm').addEventListener('submit', function (e) {
+          const cv = document.getElementById('cvUpload');
+          const photo = document.getElementById('photoUpload');
+
+          // Validate CV file extension
+          const validCVTypes = ['application/pdf',
+                                'application/msword',
+                                'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+          if (cv.files.length === 0 || !validCVTypes.includes(cv.files[0].type)) {
+            alert("Please upload a valid CV file (.pdf, .doc, .docx)");
+            cv.focus();
+            e.preventDefault();
+            return;
+          }
+
+          // Validate photo file extension and size
+          const validImageTypes = ['image/jpeg', 'image/png'];
+          const photoFile = photo.files[0];
+
+          if (!validImageTypes.includes(photoFile.type)) {
+            alert("Please upload a valid photo (.jpg, .jpeg, .png)");
+            photo.focus();
+            e.preventDefault();
+            return;
+          }
+
+          if (photoFile.size > 2 * 1024 * 1024) {
+            alert("Photo size must be under 2MB.");
+            photo.focus();
+            e.preventDefault();
+            return;
+          }
+        });
+    </script>
+
+    <script>
+        document.getElementById('recruitmentForm').addEventListener('submit', function (e) {
+          const cv = document.getElementById('cvUpload');
+          const photo = document.getElementById('photoUpload');
+
+          const validCVTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+          if (cv.files.length === 0 || !validCVTypes.includes(cv.files[0].type)) {
+            alert("Please upload a valid CV file (.pdf, .doc, .docx)");
+            cv.focus();
+            e.preventDefault();
+            return;
+          }
+
+          const validImageTypes = ['image/jpeg', 'image/png'];
+          const photoFile = photo.files[0];
+
+          if (!validImageTypes.includes(photoFile.type)) {
+            alert("Please upload a valid photo (.jpg, .jpeg, .png)");
+            photo.focus();
+            e.preventDefault();
+            return;
+          }
+
+          if (photoFile.size > 2 * 1024 * 1024) {
+            alert("Photo size must be under 2MB.");
+            photo.focus();
+            e.preventDefault();
+            return;
+          }
+
+          // Show loading screen
+          document.getElementById('loadingOverlay').style.display = 'none';
+
+          // Simulate file upload delay
+          setTimeout(() => {
+            // Normally you’d let the form submit here
+            // e.g., by removing e.preventDefault() entirely
+
+            // For demo purpose only: hide overlay again
+            document.getElementById('loadingOverlay').style.display = 'none';
+            alert("Form submitted!");
+          }, 2000); // Simulated delay (2 seconds)
+
+          e.preventDefault(); // remove this line when doing real form submission
+        });
+    </script>
+    <script>
+          // Simulated API response
+        const candidateData = {
+          firstName: "John",
+          middleName: "A.",
+          lastName: "Doe"
+        };
+
+        // Fill the inputs
+        document.getElementById("firstName").value = candidateData.firstName || '';
+        document.getElementById("middleName").value = candidateData.middleName || '';
+        document.getElementById("lastName").value = candidateData.lastName || '';
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            const apiUrl = window.CANDIDATE_API_BASE + "Get-Candidate";
+
+            $.ajax({
+                url: apiUrl,
+                method: "GET", // ✅ GET is fine if no body is needed
+                success: function (response) {
+                    console.log("Candidate data received:", response);
+
+                    // Fill form fields from response
+                    if (response.firstName) {
+                        $('#firstName').val(response.firstName);
+                    }
+                    if (response.middleName) {
+                        $('#middleName').val(response.middleName);
+                    }
+                    if (response.lastName) {
+                        $('#lastName').val(response.lastName);
+                    }
+                },
+                error: function (xhr) {
+                    console.error("Error fetching candidate:", xhr.responseText);
+                }
+            });
+        });
+    </script>
+
+    <script>
+        window.history.pushState(null, "", window.location.href);
+        window.onpopstate = function () {
+            window.history.pushState(null, "", window.location.href);
+        };
+    </script>
+</body>
+</html>

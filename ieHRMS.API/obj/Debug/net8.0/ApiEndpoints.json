@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "ieHRMS.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/Candidate-SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SignIn",
+        "Type": "ieHRMS.Models.SignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ieHRMS.API.Controllers.AuthController",
+    "Method": "SignUp",
+    "RelativePath": "Auth/Candidate-SignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUp",
+        "Type": "ieHRMS.Models.SignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ieHRMS.API.Controllers.AuthController",
+    "Method": "VerifyEmailToken",
+    "RelativePath": "Auth/validation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ieHRMS.Models.TokenVerifyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ieHRMS.API.Controllers.CareerController",
+    "Method": "CandidateDetails",
+    "RelativePath": "Career/Get-Candidate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ieHRMS.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ieHRMS.API.WeatherForecast, ieHRMS.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

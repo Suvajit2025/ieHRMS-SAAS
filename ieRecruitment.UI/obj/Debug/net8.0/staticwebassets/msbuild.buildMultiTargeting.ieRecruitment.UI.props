@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ieRecruitment.UI.props" />
+</Project>

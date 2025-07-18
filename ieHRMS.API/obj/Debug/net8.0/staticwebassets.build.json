@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NnaR7z+we00cqcS7433LxCsbTccm7j7ylCC/aobO7zw=",
+  "Source": "ieHRMS.API",
+  "BasePath": "_content/ieHRMS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

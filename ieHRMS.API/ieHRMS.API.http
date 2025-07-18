@@ -1,0 +1,6 @@
+@ieHRMS.API_HostAddress = http://localhost:5208
+
+GET {{ieHRMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

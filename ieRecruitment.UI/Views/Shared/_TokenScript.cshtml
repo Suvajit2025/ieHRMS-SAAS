@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var token = HttpContextAccessor.HttpContext?.Session.GetString("accessToken");
+    var apiCandidateRecruitment = Configuration["ApiSettings:CandidateURL"];
+    var applicationCode = Configuration["AppSettings:ApplicationKey"];
+}
+
+<script>
+    // ✅ Global constants from server
+    window.ACCESS_TOKEN = '@token';
+    window.CANDIDATE_API_BASE = @Html.Raw(Json.Serialize(apiCandidateRecruitment));
+    window.APPLICATION_CODE = @Html.Raw(Json.Serialize(applicationCode));
+
+    // ✅ Helper: Read cookie value by name
+    function getCookie(name) {
+        const cookie = document.cookie.split('; ').find(row => row.startsWith(name + '='));
+        return cookie ? decodeURIComponent(cookie.split('=')[1]) : null;
+    }
+
+    // ✅ Auto-attach headers globally to all jQuery AJAX requests
+    $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+        const token = window.ACCESS_TOKEN;
+        const appCode = window.APPLICATION_CODE;
+        const csrfToken = getCookie('XSRF-TOKEN'); // Must match server-side antiforgery cookie name
+
+        if (token) {
+            jqXHR.setRequestHeader("Authorization", "Bearer " + token);
+        }
+
+        if (appCode) {
+            jqXHR.setRequestHeader("Application-Code", appCode);
+        }
+
+        // ✅ Add CSRF token only for unsafe HTTP methods
+        const unsafeMethods = ['POST', 'PUT', 'DELETE', 'PATCH'];
+        if (unsafeMethods.includes(options.type.toUpperCase()) && csrfToken) {
+            jqXHR.setRequestHeader("X-CSRF-TOKEN", csrfToken); // This must match server-side config
+        }
+    });
+</script>
+

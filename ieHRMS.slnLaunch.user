@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ieHRMS.API\\ieHRMS.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ieHRMS.UI\\ieHRMS.UI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ieRecruitment.UI\\ieRecruitment.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
