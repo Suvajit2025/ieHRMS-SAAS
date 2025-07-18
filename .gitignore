@@ -1,5 +1,5 @@
 ########################################
-# Build results
+# Build output
 ########################################
 [Bb]in/
 [Oo]bj/
@@ -8,63 +8,37 @@
 artifacts/
 x64/
 x86/
-build/
 bld/
+build/
+Debug/
+Release/
 
 ########################################
-# User-specific files
+# User-specific files (Visual Studio/VSCode)
 ########################################
 *.user
-*.suo
 *.userosscache
+*.suo
 *.sln.docstates
-*.swp
-*.sdf
-*.orig
+.vs/
+.vscode/
+*.code-workspace
 
 ########################################
-# ASP.NET / .NET Core
+# JetBrains Rider
+########################################
+.idea/
+*.sln.iml
+
+########################################
+# ASP.NET / .NET Core / EF Core
 ########################################
 project.lock.json
 project.fragment.lock.json
 project.assets.json
 global.json
-
-# EF Core
 Migrations/
-
-# Entity Framework Tools logs
 ef.log
-
-########################################
-# Visual Studio
-########################################
-.vs/
-.vscode/
-.vscode-test/
-*.code-workspace
-
-# Visual Studio Code settings
-*.code-workspace
-.vscode/
-
-# Rider
-.idea/
-*.sln.iml
-
-########################################
-# Windows / Office files
-########################################
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-~$*
-*.tmp
-*.bak
-*.swp
-*.lock
 
 ########################################
 # NuGet
@@ -72,56 +46,74 @@ $RECYCLE.BIN/
 *.nupkg
 *.snupkg
 *.nuspec
-packages/
 .nuget/
-*.dll
-*.exe
-
-# Package-related
-*.vsix
-*.appx
-*.appxbundle
+packages/
 
 ########################################
-# Logs / Coverage / Reports
+# Compiled Binaries
 ########################################
-*.log
-*.tlog
-*.vssscc
-*.vspscc
-*.coverage
-*.coveragexml
-*.code-workspace
-*.sqlite
+# Only exclude DLLs & EXEs from bin/obj
+[Bb]in/**/*.dll
+[Oo]bj/**/*.dll
+[Bb]in/**/*.exe
+[Oo]bj/**/*.exe
+
+########################################
+# Windows / Office / Temp
+########################################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+*.bak
+*.swp
+*.lock
+~$*
+
+########################################
+# Test, Coverage & Reports
+########################################
 TestResults/
 TestResult.xml
 *.trx
-*.cache
-*.dbmdl
-*.bak
-*.mdf
-*.ldf
-
-# Coverage tools
-coverage/
-coverage-results/
 *.coverage
 *.coveragexml
 *.cobertura.xml
-*.lcov
 *.opencover.xml
-*.nyc_output/
-*.sass-cache
-
-# MSBuild Binary and Structured Log
+coverage/
+coverage-results/
 *.binlog
+*.tlog
+*.vssscc
+*.vspscc
+*.sqlite
+*.dbmdl
 
 ########################################
-# Secrets / Configs (optional)
+# Entity Framework Local DB Files
+########################################
+*.mdf
+*.ldf
+
+########################################
+# Secrets / Local configs (optional)
 ########################################
 secrets.json
 appsettings.Development.json
 appsettings.Local.json
 appsettings.*.local.json
 
-# Comment above if storing config in source control
+# Uncomment below if you want to track config files
+# !appsettings.json
+# !appsettings.Production.json
+
+########################################
+# Git LFS (if needed - optional)
+########################################
+# *.psd
+# *.mp4
+# *.zip
+# *.dll
+# Add Git LFS tracked file types above if required
