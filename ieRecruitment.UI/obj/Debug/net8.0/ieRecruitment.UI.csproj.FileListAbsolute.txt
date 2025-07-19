@@ -564,3 +564,4 @@ D:\Archive\SAAS-HRMS\ieHRMS\ieRecruitment.UI\obj\Debug\net8.0\refint\ieRecruitme
 D:\Archive\SAAS-HRMS\ieHRMS\ieRecruitment.UI\obj\Debug\net8.0\ieRecruitment.UI.pdb
 D:\Archive\SAAS-HRMS\ieHRMS\ieRecruitment.UI\obj\Debug\net8.0\ieRecruitment.UI.genruntimeconfig.cache
 D:\Archive\SAAS-HRMS\ieHRMS\ieRecruitment.UI\obj\Debug\net8.0\ref\ieRecruitment.UI.dll
+D:\Archive\SAAS-HRMS\ieHRMS\ieRecruitment.UI\obj\Debug\net8.0\ieRecruitment.UI.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ieRecruitment.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b871a292dfef2631c0ad77a80eee34d97de8c894")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ade08521bab9f6d563bba0b6f1519931ebfd6186")]
 [assembly: System.Reflection.AssemblyProductAttribute("ieRecruitment.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ieRecruitment.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\tenantroutetransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\tenantroutetransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\views\\career\\fromlanding.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\views\\career\\fromlanding.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\views\\shared\\_entryfromlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\views\\shared\\_entryfromlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|d:\\archive\\saas-hrms\\iehrms\\iehrms.api\\controllers\\careercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|solutionrelative:iehrms.api\\controllers\\careercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|d:\\archive\\saas-hrms\\iehrms\\iehrms.api\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|solutionrelative:iehrms.api\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|d:\\archive\\saas-hrms\\iehrms\\iehrms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|solutionrelative:iehrms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\tenantroutetransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|solutionrelative:ierecruitment.ui\\tenantroutetransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|d:\\archive\\saas-hrms\\iehrms\\iehrms.api\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F29619-CEDB-4A4D-A7D0-B5890F6DDB6F}|ieHRMS.API\\ieHRMS.API.csproj|solutionrelative:iehrms.api\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4492D7D2-49BE-41B1-BE6F-D73FFEDDDE1A}|ieRecruitment.UI\\ieRecruitment.UI.csproj|d:\\archive\\saas-hrms\\iehrms\\ierecruitment.ui\\controllers\\careercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,15 +74,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:323948898:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "ieRecruitment.UI\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "ieRecruitment.UI\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-19T04:29:13.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_EntryFromLayout.cshtml",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Shared\\_EntryFromLayout.cshtml",
+              "RelativeDocumentMoniker": "ieRecruitment.UI\\Views\\Shared\\_EntryFromLayout.cshtml",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Shared\\_EntryFromLayout.cshtml",
+              "RelativeToolTip": "ieRecruitment.UI\\Views\\Shared\\_EntryFromLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T04:06:45.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TenantRouteTransformer.cs",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\TenantRouteTransformer.cs",
+              "RelativeDocumentMoniker": "ieRecruitment.UI\\TenantRouteTransformer.cs",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\TenantRouteTransformer.cs",
+              "RelativeToolTip": "ieRecruitment.UI\\TenantRouteTransformer.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:19:06.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ieHRMS.API\\appsettings.json",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\appsettings.json",
+              "RelativeToolTip": "ieHRMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T16:07:57.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ieHRMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ieHRMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEABAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:18:27.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenValidationMiddleware.cs",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeToolTip": "ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:46:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CareerController.cs",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\CareerController.cs",
+              "RelativeDocumentMoniker": "ieHRMS.API\\Controllers\\CareerController.cs",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\CareerController.cs",
+              "RelativeToolTip": "ieHRMS.API\\Controllers\\CareerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:00:49.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FromLanding.cshtml",
+              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
+              "RelativeDocumentMoniker": "ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
+              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
+              "RelativeToolTip": "ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBEAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T15:50:03.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\Controllers\\HomeController.cs",
@@ -87,85 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TenantRouteTransformer.cs",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\TenantRouteTransformer.cs",
-              "RelativeDocumentMoniker": "ieRecruitment.UI\\TenantRouteTransformer.cs",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\TenantRouteTransformer.cs",
-              "RelativeToolTip": "ieRecruitment.UI\\TenantRouteTransformer.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwCsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T16:19:06.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ieHRMS.API\\appsettings.json",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\appsettings.json",
-              "RelativeToolTip": "ieHRMS.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-18T16:07:57.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ieHRMS.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ieHRMS.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADABAAAAAAAAAAAmwEABAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:18:27.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenValidationMiddleware.cs",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
-              "RelativeDocumentMoniker": "ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
-              "RelativeToolTip": "ieHRMS.API\\Middlewares\\TokenValidationMiddleware.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T08:46:04.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CareerController.cs",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\CareerController.cs",
-              "RelativeDocumentMoniker": "ieHRMS.API\\Controllers\\CareerController.cs",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Controllers\\CareerController.cs",
-              "RelativeToolTip": "ieHRMS.API\\Controllers\\CareerController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvx8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T16:00:49.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FromLanding.cshtml",
-              "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
-              "RelativeDocumentMoniker": "ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
-              "ToolTip": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
-              "RelativeToolTip": "ieRecruitment.UI\\Views\\Career\\FromLanding.cshtml",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAAAB8BAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T15:50:03.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Program.cs",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\Program.cs",
@@ -178,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CareerController.cs",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Controllers\\CareerController.cs",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\Controllers\\CareerController.cs",
@@ -186,12 +221,11 @@
               "RelativeToolTip": "ieRecruitment.UI\\Controllers\\CareerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T16:19:33.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T16:19:33.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\Views\\Home\\Login.cshtml",
@@ -199,12 +233,11 @@
               "RelativeToolTip": "ieRecruitment.UI\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAiwGcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T16:38:14.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T16:38:14.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\appsettings.json",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\appsettings.json",
@@ -212,12 +245,11 @@
               "RelativeToolTip": "ieRecruitment.UI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-18T16:33:14.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T16:33:14.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ieHRMS.API\\Properties\\launchSettings.json",
@@ -225,12 +257,11 @@
               "RelativeToolTip": "ieHRMS.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-18T16:10:07.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T16:10:07.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "_TokenScript.cshtml",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieRecruitment.UI\\Views\\Shared\\_TokenScript.cshtml",
               "RelativeDocumentMoniker": "ieRecruitment.UI\\Views\\Shared\\_TokenScript.cshtml",
@@ -238,12 +269,11 @@
               "RelativeToolTip": "ieRecruitment.UI\\Views\\Shared\\_TokenScript.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T15:49:44.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T15:49:44.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Archive\\SAAS-HRMS\\ieHRMS\\ieHRMS.API\\Program.cs",
               "RelativeDocumentMoniker": "ieHRMS.API\\Program.cs",
@@ -251,8 +281,7 @@
               "RelativeToolTip": "ieHRMS.API\\Program.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAAAAALAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T15:22:45.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T15:22:45.052Z"
             }
           ]
         }

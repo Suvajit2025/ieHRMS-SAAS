@@ -37,7 +37,7 @@
   
 .progress-text strong{ color: #61a4eb; font-weight: 600; font-size: x-large;}
         .btn-primary {
-      padding: 12px;
+      padding: 10px;
       border-radius: 6px;
       background-color: var(--btn-primary-bg);
     }

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] -A Recruitment Solution</title>
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5 CSS -->
+    <!-- DataTables CSS -->
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/assets/css/dataTables.bootstrap5.min.css">
+    @await RenderSectionAsync("Style", required: false)
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="d-flex" style="display:none !important;">
+        <div class="text-center">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <div class="fw-bold text-primary">Please wait, uploading...</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <header class="container-fluid bg-transparent py-2 ps-2 g-0">
+            <div class="row align-items-center justify-content-center flex-sm-row flex-md-row flex-row">
+                <!-- Logo -->
+                <div class="col-auto d-flex align-items-center justify-content-center mb-2 mb-sm-0 pe-2">
+                    <img src="/assets/img/logo1.png" alt="Mendine Logo" class="img-fluid recruitment-logo-custom">
+                </div>
+
+                <!-- Header Text -->
+                <div class="col d-flex align-items-center align-items-sm-start  justify-content-start">
+                    <h2 class="mb-0 fw-semibold portal-heading">RECRUITMENT PORTAL</h2>
+                </div>
+            </div>
+        </header>
+
+        <div class="d-flex align-items-center justify-content-center">
+            @RenderBody();
+        </div>
+    </div>
+    <!-- ✅ 1. Load jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        window.history.pushState(null, "", window.location.href);
+        window.onpopstate = function () {
+            window.history.pushState(null, "", window.location.href);
+        };
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
